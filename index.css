@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: grey;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 35% 35%;
+    gap: 4%;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#list li a{
+    text-decoration: none;
+    font-size: small;
+}
+
+.head_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+    
+}
+.search{
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.search input{
+    outline: none;
+}
+.ima_search{
+    position: absolute;
+    right: 1px;
+    width: 20px;
+    height: 20px;
+}
+.ima_search img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right_icon{
+    width: 20px;
+    height: 20px;
+}
+.right_icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right_icon img:hover{
+    cursor: pointer;
+}
+.excl{
+    padding-left: 5px;
+}
+
+.div_hello{
+    padding-top: 10px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin: 0 auto;
+}
+#Voucher{
+    width: 150px;
+    line-height: 45px;
+}
+.right_hello{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    color: white;
+    background-color: black;
+}
+.apple{
+    position: relative;
+    margin-bottom: 30px;
+}
+.title{
+    padding: 30px;
+    margin-top: 30px;
+}
+.apple .phone_14{
+    position: absolute;
+    font-size: small;
+    margin-left: 5px;
+}
+.apple img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.phone_home{
+    width: 100%;
+    height: 400px;
+}
+.phone_home img{
+    width: 100%;
+    height: 100%;
+}
+
+#btn{
+    margin-top: 50px;
+    width: 30%;
+    cursor: pointer;
+}
+#category_list{
+    list-style-type: none;
+    line-height: 50px;
+}
+#category_list li a{
+    text-decoration: none;
+    font-size: small;
+}
+
+
+.best_selling{
+    margin-top: 20px;
+}
+.para{
+    margin-left: 10%;
+    color: red;
+}
+.hea_best{
+    font-style: italic;
+}
+.grid_items{
+    width: 90%;
+    gap: 4px;
+    margin: 0 auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+}
+.flash_sell{
+    margin-top: 30px;
+}
+.grid_items .imag{
+    background-color: grey;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.offer{
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    font-size: x-small;
+    border-top-left-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.imag img{
+    transform: translateY(30px);
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.today{
+    margin-bottom: 10px;
+    margin-left: 14%;
+    color: red;
+}
+#btn2{
+    width: 10%;
+    height: 30px;
+    margin-left: 45%;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.best_grid{
+    width: 80%;
+    margin: 10px auto 20px;
+    display: flex;
+    align-items: center;
+}
+.best_grid button{
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+.best_imag{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+
+.icons_img{
+    background-color: antiquewhite;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 85%;
+}
+.icons_img img{
+    width: 60%;
+    height: 70%;
+    cursor: pointer;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heart_icon{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+}
+.show_icon{
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+}
+.show_icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.heart_icon img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
